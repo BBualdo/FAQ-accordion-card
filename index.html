@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/desktop.css">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/mobile.css">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  
+</head>
+<body>
+  <main>
+    <img class="desktopHeaderImgBox" src="images/illustration-box-desktop.svg" alt="">
+    <div class="left-side">
+      <div class="images">
+        <img class="mobileHeaderImgBody" src="images/illustration-woman-online-mobile.svg" alt="">
+        <img class="mobileHeaderImgShadow" src="images/bg-pattern-mobile.svg" alt="">
+        <img class="desktopHeaderImgBody" src="images/illustration-woman-online-desktop.svg" alt="">
+        <img class="desktopHeaderImgShadow" src="images/bg-pattern-desktop.svg" alt="">
+      </div>
+    </div>
+      
+    <div class="right-side">
+      <h1>FAQ</h1>
+      <div class="main-page">
+        <div class="questionAndAnswer faq-1">
+          <div class="question-container">
+            <p onclick="
+              showAnswer('.faq-1', '.js-question-1', '.js-arrow-1');
+            " class="question js-question-1">
+              How many team members can I invite?
+            </p>
+            <img class="page-arrow js-arrow-1" src="images/icon-arrow-down.svg" alt="Arrow">
+          </div>
+        </div>
+        <div class="questionAndAnswer faq-2">
+          <div class="question-container">
+            <p onclick="
+              showAnswer('.faq-2', '.js-question-2', '.js-arrow-2');
+              " class="question js-question-2">
+              What is the maximum file upload size?
+            </p>
+            <img class="page-arrow js-arrow-2" src="images/icon-arrow-down.svg" alt="Arrow">
+          </div>
+          
+        </div>
+        <div class="questionAndAnswer faq-3">
+          <div class="question-container">
+            <p onclick="
+            showAnswer('.faq-3', '.js-question-3', '.js-arrow-3');
+            " class="question js-question-3">
+              How do I reset my password?
+            </p>
+            <img class="page-arrow js-arrow-3" src="images/icon-arrow-down.svg" alt="Arrow">
+          </div>
+        </div>
+        <div class="questionAndAnswer faq-4">
+          <div class="question-container">
+            <p onclick="
+            showAnswer('.faq-4', '.js-question-4', '.js-arrow-4');
+            "  class="question js-question-4">
+              Can I cancel my subscription?
+            </p>
+            <img class="page-arrow js-arrow-4" src="images/icon-arrow-down.svg" alt="Arrow">
+          </div>
+        </div>
+        <div class="questionAndAnswer faq-5">
+          <div class="question-container">
+            <p onclick="
+            showAnswer('.faq-5', '.js-question-5', '.js-arrow-5');
+            "  class="question js-question-5">
+              Do you provide additional support?
+            </p>
+            <img class="page-arrow js-arrow-5" src="images/icon-arrow-down.svg" alt="Arrow">
+          </div>
+        </div>
+      </div>
+    </div>
+        
+  </main>
+  
+
+  
+
+  
+
+  
+
+ 
+
+  <script src="faq,.js"></script>
+</body>
+</html>

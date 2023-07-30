@@ -1,0 +1,50 @@
+@media (max-width: 400px) {
+  body {
+    margin-top: 50px;
+  }
+
+  main {
+    background: white;
+    position: relative;
+    border-radius: 20px;
+    padding: 140px 25px 50px 25px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .mobileHeaderImgBody {
+    width: 250px;
+    position: absolute;
+    top: -113px;
+    left: 50px;
+  }
+  
+  .mobileHeaderImgShadow {
+    width: 250px;
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+
+  .desktopHeaderImgBody {
+    display: none;
+  }
+  
+  .desktopHeaderImgShadow {
+    display: none;
+  }
+
+  .desktopHeaderImgBox {
+    display: none;
+  }
+  
+  .questionAndAnswer {
+    border-bottom: 1px solid var(--lightGrayishBlue);
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 300px;
+  }
+}

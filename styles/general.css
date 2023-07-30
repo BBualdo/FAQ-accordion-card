@@ -1,0 +1,90 @@
+:root {
+/* ## Colors */
+
+/* ### Primary */
+
+/* #### Text */
+
+
+--veryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+--softRed: hsl(14, 88%, 65%);
+
+/* #### Gradient */
+
+/* Background gradient */
+
+--softViolet: hsl(273, 75%, 66%);
+--softBlue: hsl(240, 73%, 65%);
+
+/* ### Neutral */
+
+/* #### Text */
+
+--veryDarkGrayishBlue: hsl(237, 12%, 33%);
+--darkGrayishBlue: hsl(240, 6%, 50%);
+
+/* #### Dividers */
+
+--lightGrayishBlue: hsl(240, 5%, 91%);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: var(--veryDarkDesaturatedBlue);
+}
+
+body {
+  background: linear-gradient(var(--softViolet), var(--softBlue));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 14px;
+}
+
+.questionAndAnswer p {
+  line-height: 18px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  cursor: pointer;
+}
+
+.question:hover {
+  color: var(--softRed);
+}
+
+.answer-1,
+.answer-2,
+.answer-3,
+.answer-4,
+.answer-5 {
+  color: var(--darkGrayishBlue);
+  font-size: 12px;
+  padding-right: 40px;
+  margin-top: 12px;
+}
+
+.is-expanded {
+  font-weight: bold;
+}
+
+.is-rotated {
+  transform: rotate(180deg);
+}
